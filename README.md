@@ -74,6 +74,22 @@ To run this project locally, follow these steps:
 1. Clone the repository:  
    ```bash
    git clone https://github.com/MarcelFelder-git/guitar-glitch
+   ````
+
+2. Navigate to the project directory:
+   ```bash
+   cd guitar-glitch
+   ````
+
+3. Open the project with a local server (recommended: Live Server
+ in VS Code).
+   - Right-click index.html → "Open with Live Server"
+   
+4. The application will run in your browser at:
+   ```arduino
+   http://localhost:5500
+   ````
+
 
 
 ---
