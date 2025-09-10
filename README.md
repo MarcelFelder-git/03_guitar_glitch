@@ -104,9 +104,6 @@ This project was created as part of my **Frontend Developer training at Cimdata*
 The main focus was on JavaScript game logic, timing precision, and JSON-based note mapping.
 Further improvements could include additional songs, expanded difficulty settings, and advanced animations.
 
-Currently, the game is **not responsive or optimized for mobile devices**,  
-since the gameplay relies on **keyboard controls**. 
-
 ### Future Improvements
 - Add additional songs  
 - Expand difficulty settings  
