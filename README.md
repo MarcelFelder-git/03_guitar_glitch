@@ -105,5 +105,15 @@ The main focus was on JavaScript game logic, timing precision, and JSON-based no
 Further improvements could include additional songs, expanded difficulty settings, and advanced animations.
 
 Currently, the game is **not responsive or optimized for mobile devices**,  
-since the gameplay relies on **keyboard controls**.  
-Mobile support could be explored in future iterations (e.g. touch controls or on-screen buttons).
+since the gameplay relies on **keyboard controls**. 
+
+### Future Improvements
+- Add additional songs  
+- Expand difficulty settings  
+- Implement advanced animations  
+- Explore mobile support (e.g., touch controls or on-screen buttons)  
+
+### Known Bugs
+- **Audio Delay on First Start:** The audio may start slightly delayed on the very first run because the file isn’t fully loaded. After the first start, everything remains in sync.  
+
+> Currently, the game is **keyboard-only** and **not optimized for mobile devices**.
