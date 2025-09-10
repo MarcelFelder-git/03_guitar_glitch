@@ -37,7 +37,7 @@ Choose your difficulty, test your timing skills, and aim for the highest score!
 <img src="guitar_glitch_gif_final.gif" alt="Guitar Glitch Demo GIF" width="100%"/>
 
 ### YouTube Demo Video
-[Watch the Demo on YouTube](https://youtu.be/DEMO-LINK)  
+[Watch the Demo on YouTube](https://youtu.be/9V_aFnm19f4)
 
 ---
 
