@@ -93,6 +93,7 @@ To run this project locally, follow these steps:
 
 ## Live Demo 
 You can try out the live version of Guitar Glitch here:
+
 [Guitar Glitch on Vercel](https://03-guitar-glitch.vercel.app/)
 
 ---
