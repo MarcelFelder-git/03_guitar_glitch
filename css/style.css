@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+body {
+    background-image: url('../img/proberaum.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-family: "Metal Mania", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 20px 0 10px;
+    font-size: 6rem;
+    color: #e1e1e1;
+    text-shadow: 10px 4px 8px rgba(186, 181, 181, 0.8);
+    text-decoration: underline;
+}
+
+#canvas {
+    border: 4px ridge rgb(134, 134, 134);
+    border-radius: 20px;
+    box-shadow: 10px 15px 15px rgba(186, 181, 181, 0.678);
+    display: block;
+    margin: 10px auto;
+    background-color: black;
+    background: url('../img/game_bg_img.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: soft-light;
+}
+
+#start-game{
+    cursor: pointer;
+}
+
+#game-screen button {
+    padding: 20px 20px;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #000000;
+    color: white;
+    transition: background-color 0.5s ease, box-shadow 0.5s ease;
+}
+
+#game-screen button:hover {
+    background-color: #5a0c4eee;
+    box-shadow: 5px 4px 8px #d954c5c0;
+}
+
+#song-selection, #difficulty-selection {
+    background-color: #d3d0d0a8;
+    margin: 0px 600px 20px 600px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 10px 4px 8px rgba(186, 181, 181, 0.8);
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+#song-selection label, #difficulty-selection label {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+#song-select, #difficulty {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2rem;
+    border: 4px solid #000000;
+    border-radius: 20px;
+    background-color: #000000;
+    color: #ffffff;
+    cursor: pointer;
+    appearance: none;
+    background-image: url('data:image/svg+xml;utf8,<svg fill="%23000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/></svg>'); /* Eigenes Pfeil-Symbol */
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 12px;
+}
+
+#song-select:hover, #difficulty:hover {
+    border-color: #929292;
+}
+
+#song-select:focus, #difficulty:focus {
+    outline: none;
+    border-color: #c3bdba;
+    box-shadow: 0 0 5px rgba(255, 102, 0, 0.5);
+}
+
+#how-to-play {
+    background-color: #d3d0d0a8;
+    margin: 20px 600px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 10px 4px 8px rgba(186, 181, 181, 0.8);
+    font-weight: 500;
+}
+  
+#how-to-play h2 {
+    font-size: 1.9em;
+    color: #000000;
+    margin-bottom: 15px;
+}
+
+#how-to-play p {
+    font-size: 1.2em;
+    color: #0f0e0e;
+    margin-bottom: 15px;
+}
+
+#how-to-play li {
+    list-style-type: none;
+    
+}  
+
+#how-to-play li {
+    margin-bottom: 12px;
+    
+}
+
+#how-to-play img {
+    width : 30px;
+    height: auto;
+}
+
+#songtitle , #score{
+    color: white;
+    text-shadow: 10px 4px 8px rgba(186, 181, 181, 0.8);
+}
+
+#game-screen button{
+    font-size: 1.2rem;
+    border-radius: 15px;
+}
+
+#controls { 
+    margin: 0 50px; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    gap: 60px; 
+}
+
+#volumeControl {
+    width: 150px; 
+    margin: 20px auto; 
+    appearance: none; 
+    -webkit-appearance: none; 
+    -moz-appearance: none; 
+    background: transparent; 
+    cursor: pointer; 
+}
+
+#volumeControl::-webkit-slider-runnable-track {
+    height: 8px; 
+    background: #5a0c4eee; 
+    border-radius: 5px; 
+}
+
+#volumeControl::-moz-range-track {
+    height: 8px;
+    background: #5a0c4eee;
+    border-radius: 5px;
+}
+
+#volumeControl::-webkit-slider-thumb {
+    -webkit-appearance: none; 
+    appearance: none;
+    width: 20px;
+    height: 20px; 
+    background: #0a0a0a; 
+    border: 2px solid #bb2ca6ee; 
+    border-radius: 50%;
+    margin-top: -6px; 
+    cursor: pointer;
+}
+
+#volumeControl::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    background: #0a0a0a;
+    border: 2px solid  #bb2ca6ee;
+    border-radius: 50%;
+    cursor: pointer;
+}
