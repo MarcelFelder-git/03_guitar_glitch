@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <script src="js/app.js" defer></script>
+    <script src="js/songs.js" defer></script>
+    <title>GuitarGlitch.js</title>
+  </head>
+  <body>
+    <h1>GuitarGlitch.js</h1>
+
+    <div id="game-screen" style="display: none">
+      <h2 id="songtitle">Now Playing:</h2>
+      <h3 id="score"></h3>
+      <canvas id="canvas" width="600" height="700"></canvas>
+      <button id="start-song">Start Song</button>
+      <button id="stop-song">Stop Song</button>
+      <button id="back-home">Back Home</button>
+      <input type="range" id="volumeControl" min="0" max="100" value="50" />
+    </div>
+
+    <button id="start-game" style="background: none; border: none; padding: 0">
+      <img id="switch-image" src="img/off_switch.png" alt="Off Switch" />
+    </button>
+
+    <div id="start-screen" style="display: block">
+      <div id="song-selection">
+        <label for="song-select">Select a Song:</label>
+        <select id="song-select">
+          <option value="Seven Nation Army">
+            The White Stripes - Seven Nation Army
+          </option>
+          <option value="Come As You Are">Nirvana - Come As You Are</option>
+        </select>
+      </div>
+
+      <div id="difficulty-selection">
+        <label for="difficulty">Difficulty:</label>
+        <select id="difficulty">
+          <option value="easy">Easy</option>
+          <option value="medium">Medium</option>
+          <option value="hard">Hard</option>
+        </select>
+      </div>
+
+      <section id="how-to-play">
+        <h2>How to Play</h2>
+        <p>
+          Welcome to GuitarGlitch.js! Follow these simple steps to get started:
+        </p>
+        <ul>
+          <li>Select the Song you wish to play.</li>
+          <li>Select your difficulty level from the options available.</li>
+          <li>
+            Start the game by clicking on the <strong>Start Game</strong> switch
+            button.
+          </li>
+          <li>
+            Use the <img src="img/key_a.png" alt="A key" />,<img
+              src="img/key_s.png"
+              alt="S key"
+            />,<img src="img/key_d.png" alt="D key" />,<img
+              src="img/key_f.png"
+              alt="F key"
+            />
+            and <img src="img/key_g.png" alt="G key" /> keys to hit the dropping
+            notes.
+          </li>
+          <li>Collect points by hitting notes at the correct time!</li>
+          <li>Enjoy the game and try to beat your high score!</li>
+        </ul>
+      </section>
+    </div>
+
+    <div id="game-screen" style="display: none">
+      <h2 id="songtitle">Now Playing:</h2>
+      <h3 id="score"></h3>
+      <canvas id="canvas" width="600" height="700"></canvas>
+      <div id="controls">
+        <button id="start-song">Start Song</button>
+        <button id="stop-song">Stop Song</button>
+        <button id="back-home">Back Home</button>
+        <input type="range" id="volumeControl" min="0" max="100" value="50" />
+      </div>
+    </div>
+  </body>
+</html>
