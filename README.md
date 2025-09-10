@@ -64,7 +64,6 @@ Choose your difficulty, test your timing skills, and aim for the highest score!
 - **JSON Note Mapping:** Built a system to define and load note patterns for different songs and difficulties.  
 - **Keyboard Input Handling:** Implemented precise keyboard event detection and timing windows for scoring.  
 - **Game Design Balance:** Discovered how difficulty scaling impacts gameplay flow and user engagement.  
-- **UI/UX:** Gained experience in designing a clear and responsive game interface for browser play.  
 
 ---
 
@@ -90,8 +89,6 @@ To run this project locally, follow these steps:
    http://localhost:5500
    ````
 
-
-
 ---
 
 ## Live Demo 
@@ -105,3 +102,7 @@ You can try out the live version of Guitar Glitch here:
 This project was created as part of my **Frontend Developer training at Cimdata**.  
 The main focus was on JavaScript game logic, timing precision, and JSON-based note mapping.
 Further improvements could include additional songs, expanded difficulty settings, and advanced animations.
+
+Currently, the game is **not responsive or optimized for mobile devices**,  
+since the gameplay relies on **keyboard controls**.  
+Mobile support could be explored in future iterations (e.g. touch controls or on-screen buttons).
