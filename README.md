@@ -72,12 +72,12 @@ To run this project locally, follow these steps:
 
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/MarcelFelder-git/guitar-glitch
+   git clone https://github.com/MarcelFelder-git/03_guitar_glitch
    ````
 
 2. Navigate to the project directory:
    ```bash
-   cd guitar-glitch
+   cd 03_guitar_glitch
    ````
 
 3. Open the project with a local server (recommended: Live Server
